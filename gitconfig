@@ -1,0 +1,29 @@
+[user]
+	email = tomasz.kleczek@gmail.com
+	name = Tomasz Kleczek
+
+# source: http://git-scm.com/blog/2010/03/08/rerere.html
+[rerere]
+  enabled = true
+
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+
+[branch]
+  # source: http://mislav.uniqpath.com/2010/07/git-tips/
+  # autosetuprebase = always
+
+  # tells git-branch and git-checkout to setup new branches to track the parent branch
+  # source: http://alblue.bandlem.com/2011/07/git-tip-of-week-tracking-branches.html
+  # autosetupmerge = always
+
+[format]
+  # pretty = oneline
+
+[push]
+  default = simple
